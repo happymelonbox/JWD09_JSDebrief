@@ -2,7 +2,7 @@
 # JS-1 Debrief Activity
   
   
-In your groups, you will ‘mob program’ to work on these activities together. Each of you has a role to play in the ‘mob’. Rotate roles at each checkpoint. Here is a suggestion of roles:  
+In your groups, you will 'peer program' to work on these activities together. Each of you has a role to play in the group. Rotate roles at each checkpoint. Here is a suggestion of roles:  
   
   
 **The Navigator/s:** Reads the instructions and instructs the Driver how to do it. You will need to communicate commands very clearly and precisely.  
@@ -105,13 +105,19 @@ If the wrong guess variable is given: Message if wrong guess: Game   Over!
   
 ### Part Two  
 Now we will update our static code to take in a user’s guess   rather than us giving a static right and wrong guess variable!   There are two ways you may choose to accomplish this, and both   will require some research one your part! This may be difficult,   so take your time!  
+  
+
 **First Way To Do This:**  
  You do so in the browser using the browser console like in the answers below using prompt() and Document.write.  
+  
 OR  
+  
 **Second Way To Do This:**   
 You use a node package called readline-sync to allow the user to input answers in the terminal and not have to use the browser.   
+  
 **To Install:** npm install readline-sync --save To Use in JS File:   require(‘readline-sync’);  
 output in console - console.log(), readlineSync.question();  
+  
 **Extension:** If the user guesses wrong, let them guess again! Let them do this 3 times before saying Game Over.   
 (Hint: You can use nested if/else statements to achieve this)  
 
