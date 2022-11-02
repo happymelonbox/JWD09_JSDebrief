@@ -1,6 +1,8 @@
 
 # JS-1 Debrief Activity
   
+**Before you begin:** all members of the group fork, clone and open this repository and once open, run in the terminal 'node index.js' without quotation marks, your terminal should print test, if it does, you're ready to go.
+  
   
 In your groups, you will 'peer program' to work on these activities together. Each of you has a role to play in the group. Rotate roles at each checkpoint. Here is a suggestion of roles:  
   
